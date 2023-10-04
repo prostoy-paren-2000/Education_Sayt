@@ -63,12 +63,13 @@ table {
 }
 main{
     width: 768px;
-    height: 912px;
+    
     margin: 0 auto;
     background-color: #e8e8e8;
     padding-top: 50px;
     padding-left: 37px;
     padding-right: 37px;
+    padding-bottom: 50px;
 }
 .center{
     text-align: center;
@@ -172,5 +173,17 @@ main{
     color: white;
     font-size: 10px;
     line-height: 10px;
+}
+.footer{
+    height: 60px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+}
+.Copyright{
+    margin-right: 15px;
 }
 
